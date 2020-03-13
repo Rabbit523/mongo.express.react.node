@@ -1,0 +1,21 @@
+{
+  "name": "data_fetching_api_mongodb",
+  "version": "1.0.0",
+  "description": "data_fetching_api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aleksandar Gordic",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.2"
+  }
+}
